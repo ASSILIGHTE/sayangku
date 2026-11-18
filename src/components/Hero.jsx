@@ -28,7 +28,7 @@ export const Hero = () => {
           <div className="absolute inset-0 bg-[radial-gradient(#E63956_1px,transparent_1px)] [background-size:16px_16px] opacity-10" />
 
           {/* Left Side: Avatar/Heart 1 (Kamu) */}
-          <motion.div 
+          <motion.div
             animate={{ y: [0, -8, 0] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             className="flex flex-col items-center gap-2 relative z-10"
@@ -43,7 +43,7 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-1 bg-[#0D0D0D]/80 px-3 py-1 rounded-full border border-white/10 text-xs text-rose-300 font-medium">
               <MapPin className="w-3 h-3 text-[#E63956]" />
-              <span>📍 Kamu</span>
+              <span>📍 aku</span>
             </div>
           </motion.div>
 
@@ -69,14 +69,14 @@ export const Hero = () => {
 
             {/* Floating Traveling Heart Signal */}
             <motion.div
-              animate={{ 
+              animate={{
                 x: ['-120%', '120%'],
                 scale: [0.8, 1.2, 0.8]
               }}
-              transition={{ 
-                duration: 3, 
-                repeat: Infinity, 
-                ease: "linear" 
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                ease: "linear"
               }}
               className="absolute text-[#E63956] drop-shadow-[0_0_10px_#E63956]"
             >
@@ -85,7 +85,7 @@ export const Hero = () => {
           </div>
 
           {/* Right Side: Avatar/Heart 2 (Aku) */}
-          <motion.div 
+          <motion.div
             animate={{ y: [0, -8, 0] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
             className="flex flex-col items-center gap-2 relative z-10"
@@ -100,7 +100,7 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-1 bg-[#0D0D0D]/80 px-3 py-1 rounded-full border border-white/10 text-xs text-rose-300 font-medium">
               <MapPin className="w-3 h-3 text-[#E63956]" />
-              <span>📍 Aku</span>
+              <span>📍 kamu</span>
             </div>
           </motion.div>
         </motion.div>
@@ -123,7 +123,7 @@ export const Hero = () => {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white mb-6 leading-tight"
         >
-          Happy Birthday, <br className="sm:hidden"/>
+          Happy Birthday, <br className="sm:hidden" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] via-[#E63956] to-[#B91C3C]">
             Sayang ❤️
           </span>
